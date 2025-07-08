@@ -13,8 +13,8 @@ export default function Navbar() {
           <Image
             src="/images/navbar_logo.png"
             alt="STEMzLearning Logo"
-            width={160}
-            height={40}
+            width={300}
+            height={70}
             priority
           />
         </div>
