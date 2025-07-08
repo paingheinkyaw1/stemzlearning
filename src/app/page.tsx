@@ -1,7 +1,13 @@
+import Navbar from '@/components/Navbar';
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-gray-100">
-      <h1 className="text-4xl font-bold text-blue-600">STEMzLearning is Live!</h1>
-    </main>
+    <>
+      <Navbar />
+      <main className="pt-32 px-8">
+        <h1 className="text-4xl font-bold">Welcome to STEMzLearning</h1>
+        {/* other content here */}
+      </main>
+    </>
   );
 }
