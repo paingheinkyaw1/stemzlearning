@@ -13,13 +13,10 @@ export default function Navbar() {
           <Image
             src="/public/images/navbar_logo.png"
             alt="STEMzLearning Logo"
-            width={40}
-            height={40}
+            width={800}
+            height={500}
             priority
           />
-          <span className="text-2xl font-extrabold text-green-700">
-            STEM<span className="text-gray-700">Z</span>LEARNING
-          </span>
         </div>
 
         {/* Navigation Links */}
