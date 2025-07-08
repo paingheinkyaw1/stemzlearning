@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import React from 'react';
-import { UserCircle } from 'lucide-react'; // Optional icon, or use another
+import { ChevronDown, UserCircle } from 'lucide-react';
 
 export default function Navbar() {
   return (
@@ -25,10 +25,10 @@ export default function Navbar() {
             <li className="cursor-pointer hover:text-green-700">Home</li>
             <li className="cursor-pointer hover:text-green-700">About Us</li>
             <li className="cursor-pointer hover:text-green-700 flex items-center gap-1">
-              Services <span className="text-sm">▼</span>
+              Services <ChevronDown size={16} strokeWidth={2} />
             </li>
             <li className="cursor-pointer hover:text-green-700 flex items-center gap-1">
-              Media <span className="text-sm">▼</span>
+              Media <ChevronDown size={16} strokeWidth={2} />
             </li>
           </ul>
 
