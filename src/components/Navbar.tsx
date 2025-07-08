@@ -1,22 +1,33 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 
 export default function Navbar() {
   return (
     <nav className="fixed top-0 z-50 w-full bg-white/90 backdrop-blur-md shadow-md px-8 py-4">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        {/* Placeholder Logo */}
-        <div className="text-2xl font-extrabold text-green-700">
-          STEM<span className="text-gray-700">Z</span>LEARNING
+        
+        {/* Logo */}
+        <div className="flex items-center gap-2">
+          <Image
+            src="/public/images/navbar_logo.png"
+            alt="STEMzLearning Logo"
+            width={40}
+            height={40}
+            priority
+          />
+          <span className="text-2xl font-extrabold text-green-700">
+            STEM<span className="text-gray-700">Z</span>LEARNING
+          </span>
         </div>
 
         {/* Navigation Links */}
         <ul className="hidden md:flex gap-8 text-gray-800 font-medium">
           <li className="cursor-pointer hover:text-green-700">Home</li>
           <li className="cursor-pointer hover:text-green-700">About Us</li>
-          <li className="cursor-pointer hover:text-green-700">Services ⌄</li>
-          <li className="cursor-pointer hover:text-green-700">Media ⌄</li>
+          <li className="cursor-pointer hover:text-green-700">Services</li>
+          <li className="cursor-pointer hover:text-green-700">Media</li>
         </ul>
 
         {/* Dashboard Button */}
