@@ -13,15 +13,15 @@ export default function Navbar() {
           <Image
             src="/images/navbar_logo.png"
             alt="STEMzLearning Logo"
-            width={400}
+            width={300}
             height={100}
             priority
           />
         </div>
 
         {/* Right section: nav links + button */}
-        <div className="flex items-center gap-8">
-          <ul className="hidden md:flex gap-8 text-gray-800 font-medium">
+        <div className="flex items-center gap-10">
+          <ul className="hidden md:flex gap-10 text-gray-800 font-medium">
             <li className="cursor-pointer hover:text-green-700">Home</li>
             <li className="cursor-pointer hover:text-green-700">About Us</li>
             <li className="cursor-pointer hover:text-green-700 flex items-center gap-1">
