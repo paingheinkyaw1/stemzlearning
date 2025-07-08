@@ -21,7 +21,7 @@ export default function Navbar() {
 
         {/* Right section: nav links + button */}
         <div className="flex items-center gap-6">
-          <ul className="hidden md:flex gap-6 text-gray-800 font-medium">
+          <ul className="hidden md:flex gap-8 text-gray-800 font-medium">
             <li className="cursor-pointer hover:text-green-700">Home</li>
             <li className="cursor-pointer hover:text-green-700">About Us</li>
             <li className="cursor-pointer hover:text-green-700 flex items-center gap-1">
