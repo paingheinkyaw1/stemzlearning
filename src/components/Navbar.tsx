@@ -11,10 +11,10 @@ export default function Navbar() {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <Image
-            src="/public/images/navbar_logo.png"
+            src="/images/navbar_logo.png"
             alt="STEMzLearning Logo"
-            width={800}
-            height={500}
+            width={160}
+            height={40}
             priority
           />
         </div>
