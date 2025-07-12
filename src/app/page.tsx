@@ -45,7 +45,7 @@ export default function Home() {
           loop
           muted
           playsInline
-          className="absolute right-100 top-[50%] -translate-y-1/2 w-[250px] pointer-events-none z-0 scale-x-[-1]"
+          className="absolute right-100 top-[50%] -translate-y-1/2 w-[400px] pointer-events-none z-0 scale-x-[-1]"
         >
           <source src="/images/home_video_1.mp4" type="video/mp4" />
           Your browser does not support the video tag.
