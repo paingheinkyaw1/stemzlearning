@@ -29,8 +29,8 @@ export default function Home() {
             Join our waitlist
           </button>
         </div>
-
-        {/* Right content */}
+        
+        /*{/* Right content */}
         <div className="flex justify-center z-10">
           <Image
             src="/images/hero_illustration.png"
@@ -41,7 +41,7 @@ export default function Home() {
             priority
           />
         </div>
-
+        */
         {/* Decorative: bottom right atom */}
         <Image
           src="/images/home_atom.png"
@@ -53,7 +53,7 @@ export default function Home() {
 
         {/* Decorative: behind student illustration */}
         <Image
-          src="/images/home_video.png"
+          src="/images/home_video_1.png"
           alt="Video grid graphic"
           width={250}
           height={250}
