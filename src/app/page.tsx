@@ -14,7 +14,7 @@ export default function Home() {
           alt="Math graphic"
           width={100}
           height={100}
-          className="absolute top-20 left-4 opacity-30"
+          className="absolute top-40 left-4 opacity-30"
         />
 
         {/* Main Content */}
