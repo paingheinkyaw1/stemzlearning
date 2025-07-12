@@ -40,13 +40,16 @@ export default function Home() {
         />
 
         {/* Decorative: behind student illustration */}
-        <Image
-          src="/images/home_video_1.mp4"
-          alt="Video grid graphic"
-          width={250}
-          height={250}
-          className="absolute right-10 top-[50%] -translate-y-1/2 opacity-10"
-        />
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute right-10 top-[50%] -translate-y-1/2 w-[250px] opacity-10 pointer-events-none z-0"
+        >
+          <source src="/images/home_video_1.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </main>
     </>
   );
