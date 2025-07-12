@@ -25,7 +25,7 @@ export default function Home() {
           <p className="text-lg text-gray-700 max-w-md">
             Transforming how STEM subjects are taught with interactive lessons and powerful analytics.
           </p>
-          <button className="bg-yellow-400 text-gray-900 px-6 py-3 font-semibold rounded-md shadow hover:bg-yellow-500 transition">
+          <button className="bg-yellow-400 text-white px-6 py-3 font-semibold rounded-md shadow hover:bg-yellow-500 transition">
             Join our waitlist
           </button>
         </div>
