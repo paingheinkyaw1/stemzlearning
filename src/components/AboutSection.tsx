@@ -34,32 +34,32 @@ export default function AboutSection() {
         </div>
       </div>
 
-      {/* Feature icons below */}
+      {/* Feature icons */}
       <div className="max-w-6xl mx-auto mt-16 grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
         {/* 1. Educators Guide */}
         <div>
-          <Image src="/images/aboutImage1.png" alt="Educators Guide" width={80} height={80} className="mx-auto" />
+          <Image src="/images/aboutImage1.png" alt="Educators Guide" width={70} height={70} className="mx-auto" />
           <h4 className="font-bold mt-4">Educators Guide</h4>
           <p className="text-sm text-gray-600">Teachers facilitate learning with powerful tools and insights</p>
         </div>
 
         {/* 2. Students Engage */}
         <div>
-          <Image src="/images/aboutImage2.png" alt="Students Engage" width={80} height={80} className="mx-auto" />
-          <h4 className="font-bold mt-4">Students Engage</h4>
+          <Image src="/images/aboutImage2.png" alt="Students Engage" width={62} height={70} className="mx-auto" />
+          <h4 className="font-bold mt-2">Students Engage</h4>
           <p className="text-sm text-gray-600">Interactive lessons spark curiosity and hands-on learning</p>
         </div>
 
         {/* 3. Content Evolves */}
         <div>
-          <Image src="/images/aboutImage3.png" alt="Content Evolves" width={80} height={80} className="mx-auto" />
+          <Image src="/images/aboutImage3.png" alt="Content Evolves" width={70} height={70} className="mx-auto" />
           <h4 className="font-bold mt-4">Content Evolves</h4>
           <p className="text-sm text-gray-600">Lessons adapt and improve based on learning outcomes</p>
         </div>
 
         {/* 4. Analytics Track */}
         <div>
-          <Image src="/images/aboutImage4.png" alt="Analytics Track" width={80} height={80} className="mx-auto" />
+          <Image src="/images/aboutImage4.png" alt="Analytics Track" width={70} height={70} className="mx-auto" />
           <h4 className="font-bold mt-4">Analytics Track</h4>
           <p className="text-sm text-gray-600">Real-time data shows progress and identifies opportunities</p>
         </div>

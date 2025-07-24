@@ -31,10 +31,12 @@ export default function Navbar() {
               Media <ChevronDown size={16} strokeWidth={2} />
             </li>
           </ul>
-
-          <button className="font-[--font-poppins] hidden md:flex items-center gap-2 bg-green-700 text-white px-5 py-2 rounded-md shadow hover:bg-green-800 transition font-normal">
-            <UserCircle size={18} /> Dashboard
-          </button>
+        <button
+          style={{ backgroundColor: '#357717' }}
+          className="font-[--font-poppins] hidden md:flex items-center gap-2 text-white px-5 py-2 rounded-md shadow hover:brightness-110 transition font-normal"
+        >
+          <UserCircle size={18} /> Dashboard
+        </button>
         </div>
       </div>
     </nav>
