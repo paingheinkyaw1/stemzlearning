@@ -6,7 +6,7 @@ export default function AboutSection() {
   return (
     <section className="bg-white py-20 px-4 md:px-10">
       {/* Section Title */}
-      <h2 className="text-3xl md:text-4xl font-[--font-poppins] font-semibold text-green-800 px-30 mb-16">
+      <h2 className="font-[--font-nunito-sans] font-bold text-3xl md:text-4xl text-green-800 px-30 mb-16">
         Who We Are and What We Do
       </h2>
 
@@ -25,7 +25,7 @@ export default function AboutSection() {
 
         {/* Right text */}
         <div className="w-full lg:w-1/2">
-          <p className="text-gray-700 leading-relaxed mb-6">
+          <p className="font-[--font-poppins] text-black leading-relaxed mb-6">
             We are passionate educators and technologists united to transform STEM education by making it more accessible to elementary students. Through interactive lessons, powerful analytics, and creative exploration, we offer free curriculum and online courses for both self-guided and parent-guided learners.
           </p>
             <button className="mt-2 px-5 py-2 border border-yellow-400 text-sm text-gray-700 rounded shadow-sm hover:text-yellow-500 transition">
@@ -39,29 +39,29 @@ export default function AboutSection() {
         {/* 1. Educators Guide */}
         <div>
           <Image src="/images/aboutImage1.png" alt="Educators Guide" width={70} height={70} className="mx-auto" />
-          <h4 className="font-bold mt-4">Educators Guide</h4>
-          <p className="text-sm text-gray-600">Teachers facilitate learning with powerful tools and insights</p>
+          <h4 className="font-bold mt-4 text-black">Educators Guide</h4>
+          <p className="text-sm text-black">Teachers facilitate learning with powerful tools and insights</p>
         </div>
 
         {/* 2. Students Engage */}
         <div>
           <Image src="/images/aboutImage2.png" alt="Students Engage" width={62} height={70} className="mx-auto" />
-          <h4 className="font-bold mt-2">Students Engage</h4>
-          <p className="text-sm text-gray-600">Interactive lessons spark curiosity and hands-on learning</p>
+          <h4 className="font-bold mt-2 text-black">Students Engage</h4>
+          <p className="text-sm text-black">Interactive lessons spark curiosity and hands-on learning</p>
         </div>
 
         {/* 3. Content Evolves */}
         <div>
           <Image src="/images/aboutImage3.png" alt="Content Evolves" width={70} height={70} className="mx-auto" />
-          <h4 className="font-bold mt-4">Content Evolves</h4>
-          <p className="text-sm text-gray-600">Lessons adapt and improve based on learning outcomes</p>
+          <h4 className="font-bold mt-4 text-black">Content Evolves</h4>
+          <p className="text-sm text-black">Lessons adapt and improve based on learning outcomes</p>
         </div>
 
         {/* 4. Analytics Track */}
         <div>
           <Image src="/images/aboutImage4.png" alt="Analytics Track" width={70} height={70} className="mx-auto" />
-          <h4 className="font-bold mt-4">Analytics Track</h4>
-          <p className="text-sm text-gray-600">Real-time data shows progress and identifies opportunities</p>
+          <h4 className="font-bold mt-4 text-black">Analytics Track</h4>
+          <p className="text-sm text-black">Real-time data shows progress and identifies opportunities</p>
         </div>
       </div>
     </section>

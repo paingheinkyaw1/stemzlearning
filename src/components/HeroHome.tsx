@@ -5,7 +5,7 @@ import React from 'react';
 
 export default function HeroHome() {
   return (
-    <section className="relative min-h-screen px-8 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-12 md:gap-0 overflow-hidden">
+    <section className="min-h-screen bg-white px-8 mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-12 md:gap-0 overflow-hidden">
       {/* Decorative: top left math symbol */}
       <Image
         src="/images/home_math.png"
@@ -17,7 +17,7 @@ export default function HeroHome() {
       />
 
       {/* Main content (text block) */}
-      <div className="relative z-10 flex flex-col justify-center items-center md:items-start text-center md:text-left space-y-6 md:ml-40">
+      <div className="relative z-10 flex flex-col justify-center items-center md:items-start text-center md:text-left space-y-6 md:ml-60">
         <h1 className="font-[--font-nunito-sans] text-5xl font-semibold text-gray-900 leading-tight">
           Rethinking STEM<br />Education
         </h1>
@@ -34,7 +34,7 @@ export default function HeroHome() {
       </div>
 
       {/* Video */}
-      <div className="relative z-0 flex justify-center md:justify-end items-center md:mr-40">
+      <div className="relative z-0 flex justify-center md:justify-end items-center md:mr-60">
         <video
           autoPlay
           loop
