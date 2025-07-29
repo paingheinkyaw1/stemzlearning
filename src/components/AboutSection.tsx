@@ -28,14 +28,14 @@ export default function AboutSection() {
           <p className="font-[--font-poppins] text-black leading-relaxed mb-6">
             We are passionate educators and technologists united to transform STEM education by making it more accessible to elementary students. Through interactive lessons, powerful analytics, and creative exploration, we offer free curriculum and online courses for both self-guided and parent-guided learners.
           </p>
-            <button className="mt-2 px-5 py-2 border border-yellow-400 text-sm text-gray-700 rounded shadow-sm hover:text-yellow-500 transition">
+            <button className="font-[--font-poppins] mt-2 px-5 py-2 border border-yellow-400 text-sm text-gray-700 rounded shadow-sm hover:text-yellow-500 transition">
               Learn More
             </button>
         </div>
       </div>
 
       {/* Feature icons */}
-      <div className="max-w-6xl mx-auto mt-16 grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+      <div className="font-[--font-poppins] max-w-6xl mx-auto mt-16 grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
         {/* 1. Educators Guide */}
         <div>
           <Image src="/images/aboutImage1.png" alt="Educators Guide" width={70} height={70} className="mx-auto" />
