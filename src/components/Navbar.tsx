@@ -6,7 +6,7 @@ import { ChevronDown, UserCircle } from 'lucide-react';
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 z-50 w-full bg-white/90 backdrop-blur-md shadow-md px-8 py-4">
+    <nav className="fixed top-0 z-50 w-full bg-white/80 backdrop-blur-md shadow-md px-8 py-4">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center">
@@ -21,7 +21,7 @@ export default function Navbar() {
 
         {/* Right section: nav links + button */}
         <div className="flex items-center gap-10">
-          <ul className="font-[--font-poppins] hidden md:flex gap-10 text-gray-800 font-normal">
+          <ul className="font-[--font-poppins] hidden md:flex gap-13 text-gray-800 font-normal">
             <li className="cursor-pointer hover:text-green-700">Home</li>
             <li className="cursor-pointer hover:text-green-700">About Us</li>
             <li className="cursor-pointer hover:text-green-700 flex items-center gap-1">

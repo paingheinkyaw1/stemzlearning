@@ -4,14 +4,16 @@ import Image from 'next/image';
 
 export default function AboutSection() {
   return (
-    <section className="bg-white py-20 px-4 md:px-10">
+    <section className="bg-white py-20">
       {/* Section Title */}
-      <h2 className="font-[--font-nunito-sans] font-bold text-3xl md:text-4xl text-green-800 px-30 mb-16">
-        Who We Are and What We Do
-      </h2>
+      <div className="w-[1074px] mx-auto px-4 md:px-10">
+        <h2 className="font-[--font-nunito-sans] font-bold text-3xl md:text-4xl text-green-800 mb-16">
+          Who We Are and What We Do
+        </h2>
+      </div>
 
       {/* Top content */}
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
+      <div className="w-[1074px] mx-auto px-4 md:px-10 flex flex-col lg:flex-row items-center gap-12">
         {/* Left visual (circular diagram) */}
         <div className="relative w-full lg:w-1/2">
           <Image
@@ -28,14 +30,14 @@ export default function AboutSection() {
           <p className="font-[--font-poppins] text-black leading-relaxed mb-6">
             We are passionate educators and technologists united to transform STEM education by making it more accessible to elementary students. Through interactive lessons, powerful analytics, and creative exploration, we offer free curriculum and online courses for both self-guided and parent-guided learners.
           </p>
-            <button className="font-[--font-poppins] mt-2 px-5 py-2 border border-yellow-400 text-sm text-gray-700 rounded shadow-sm hover:text-yellow-500 transition">
-              Learn More
-            </button>
+          <button className="font-[--font-poppins] mt-2 px-5 py-2 border border-yellow-400 text-sm text-gray-700 rounded shadow-sm hover:text-yellow-500 transition">
+            Learn More
+          </button>
         </div>
       </div>
 
       {/* Feature icons */}
-      <div className="font-[--font-poppins] max-w-6xl mx-auto mt-16 grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+      <div className="w-[1074px] mx-auto px-4 md:px-10 font-[--font-poppins] mt-16 grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
         {/* 1. Educators Guide */}
         <div>
           <Image src="/images/aboutImage1.png" alt="Educators Guide" width={70} height={70} className="mx-auto" />

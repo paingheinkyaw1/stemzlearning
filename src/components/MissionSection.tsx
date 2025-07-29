@@ -95,58 +95,57 @@ export default function MissionSection() {
       </div>
 
       {/* Image Slider */}
-<div className="relative w-[1074px] h-[440.36px] mx-auto mt-16 flex items-center justify-center overflow-hidden">
-  {/* Images */}
-  <div className="flex items-center justify-center gap-3 w-full">
-    {images.map((img, i) => {
-      const pos = (i - current + images.length) % images.length;
-      const show = pos <= 3 || pos >= images.length - 3;
-      if (!show) return null;
+      <div className="relative w-[1074px] h-[440.36px] mx-auto mt-16 flex items-center justify-center overflow-hidden">
+        {/* Images */}
+        <div className="flex items-center justify-center gap-3 w-full">
+          {images.map((img, i) => {
+            const pos = (i - current + images.length) % images.length;
+            const show = pos <= 3 || pos >= images.length - 3;
+            if (!show) return null;
 
-      return (
-        <div
-          key={i}
-          className={`relative rounded-[42px] overflow-hidden transition-all duration-300 ease-in-out ${getSlideStyle(i)}`}
-        >
-          <Image
-            src={img}
-            alt={`Mission ${i}`}
-            fill
-            className="object-cover"
-          />
+            return (
+              <div
+                key={i}
+                className={`relative rounded-[42px] overflow-hidden transition-all duration-300 ease-in-out ${getSlideStyle(i)}`}
+              >
+                <Image
+                  src={img}
+                  alt={`Mission ${i}`}
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            );
+          })}
         </div>
-      );
-    })}
-  </div>
-</div>
+      </div>
 
-{/* Navigation Buttons */}
-<div className="mt-6 flex justify-center gap-8">
-  <button
-    onClick={prevSlide}
-    className="rounded-full w-[58px] h-[59px] flex items-center justify-center"
-    style={{
-      backgroundColor: 'rgba(41, 45, 50, 0.4)',
-      boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.25)',
-    }}
-    aria-label="Previous Slide"
-  >
-    <ChevronLeft size={28} className="text-black" />
-  </button>
+      {/* Navigation Buttons */}
+      <div className="mt-6 flex justify-center gap-8">
+        <button
+          onClick={prevSlide}
+          className="rounded-full w-[58px] h-[59px] flex items-center justify-center"
+          style={{
+            backgroundColor: 'rgba(41, 45, 50, 0.4)',
+            boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.25)',
+          }}
+          aria-label="Previous Slide"
+        >
+          <ChevronLeft size={28} className="text-black" />
+        </button>
 
-  <button
-    onClick={nextSlide}
-    className="rounded-full w-[58px] h-[59px] flex items-center justify-center"
-    style={{
-      backgroundColor: 'rgba(41, 45, 50, 0.4)',
-      boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.25)',
-    }}
-    aria-label="Next Slide"
-  >
-    <ChevronRight size={28} className="text-black" />
-  </button>
-</div>
-
+        <button
+          onClick={nextSlide}
+          className="rounded-full w-[58px] h-[59px] flex items-center justify-center"
+          style={{
+            backgroundColor: 'rgba(41, 45, 50, 0.4)',
+            boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.25)',
+          }}
+          aria-label="Next Slide"
+        >
+          <ChevronRight size={28} className="text-black" />
+        </button>
+      </div>
     </section>
   );
 }
