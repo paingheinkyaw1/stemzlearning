@@ -42,7 +42,7 @@ export default function HeroHome() {
           playsInline
           className="w-[300px] md:w-[400px] scale-x-[-1] pointer-events-none"
         >
-          <source src="/images/home_video_1.mp4" type="video/mp4" />
+          <source src="/images/HomePage/HeroSection/home_video_1.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
@@ -53,7 +53,7 @@ export default function HeroHome() {
         alt="Atom graphic"
         width={150}
         height={100}
-        className="absolute bottom-6 right-6 opacity-100 filter brightness-0 saturate-100 invert-0 sepia-100 hue-rotate-[320deg] saturate-[800%] contrast-100"
+        className="absolute bottom-6 right-6"
       />
     </section>
   );
