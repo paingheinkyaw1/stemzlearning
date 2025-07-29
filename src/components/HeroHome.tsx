@@ -18,10 +18,10 @@ export default function HeroHome() {
 
       {/* Main content (text block) */}
       <div className="relative z-10 flex flex-col justify-center items-center md:items-start text-center md:text-left space-y-6 md:ml-60">
-        <h1 className="font-[--font-nunito-sans] text-5xl font-semibold text-gray-900 leading-tight">
+        <h1 className="font-[--font-nunito-sans] text-5xl font-semibold text-black leading-tight">
           Rethinking STEM<br />Education
         </h1>
-        <p className="font-[--font-poppins] text-lg text-gray-700 max-w-md">
+        <p className="font-[--font-poppins] text-lg text-black max-w-md">
           Transforming how STEM subjects are taught with interactive lessons and powerful analytics.
         </p>
         <button
