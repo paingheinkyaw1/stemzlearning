@@ -7,8 +7,14 @@ export default function OurServicesSection() {
   return (
     <section className="bg-white py-20">
       <div className="w-[1074px] px-4 md:px-10 mx-auto">
-        {/* Standalone Title */}
-        <h3 className="font-[--font-nunito-sans] text-[32px] font-bold text-green-800 mb-10">
+        <div className="w-full md:w-1/2">
+            <p className="font-[--font-poppins] text-[16px] text-black">
+              WHAT WE OFFER
+            </p>
+          </div>
+        
+        {/* Title */}
+        <h3 className="font-[--font-nunito-sans] text-[32px] font-bold text-green-800 mb-6 mt-6">
           Our Services
         </h3>
 

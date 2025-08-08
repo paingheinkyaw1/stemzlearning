@@ -44,8 +44,15 @@ export default function MissionSection() {
 
   return (
     <section className="bg-white py-20">
+      <Image
+        src="/images/HomePage/MissionSection/Our Mission.png"
+        alt="Stats"
+        width={1800}
+        height={400}
+      />
+
       {/* Title + Description */}
-      <div className="w-[1074px] h-[166px] px-4 md:px-10 mx-auto">
+      <div className="w-[1074px] h-[166px] px-4 md:px-10 mx-auto mt-30">
         <h3 className="font-[--font-nunito-sans] font-bold text-3xl md:text-4xl text-green-800 mb-8">
           Our Mission
         </h3>
@@ -53,45 +60,6 @@ export default function MissionSection() {
           STEMz Learning strives to provide elementary school students with curriculum centered around experiments and hands-on learning.
           Our main goal is to introduce complex topics in palatable, engaging ways that inspire kids to learn more.
         </p>
-      </div>
-
-      {/* Stats Bar */}
-      <div className="px-4 md:px-10 max-w-7xl mx-auto">
-        <div
-          className="rounded-xl flex flex-col md:flex-row justify-between items-center text-center gap-6"
-          style={{
-            backgroundColor: '#35771721',
-            paddingTop: '25px',
-            paddingBottom: '25px',
-            paddingLeft: '50px',
-            paddingRight: '50px',
-            maxWidth: '908px',
-            height: '123px',
-            margin: '0 auto',
-          }}
-        >
-          {[
-            ['10k+', 'Active Students'],
-            ['500+', 'Educators'],
-            ['93%', 'Engagement Rate'],
-            ['50+', 'Interactive Lessons'],
-          ].map(([number, label], i) => (
-            <div key={i}>
-              <h3
-                className="font-[--font-nunito-sans] font-bold"
-                style={{ color: '#F5BA00', fontSize: '28px', fontWeight: 700 }}
-              >
-                {number}
-              </h3>
-              <p
-                className="font-[--font-poppins]"
-                style={{ color: '#000000', fontSize: '16px', fontWeight: 400 }}
-              >
-                {label}
-              </p>
-            </div>
-          ))}
-        </div>
       </div>
 
       {/* Image Slider */}
