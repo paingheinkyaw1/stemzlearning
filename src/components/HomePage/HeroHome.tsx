@@ -8,16 +8,19 @@ export default function HeroHome() {
     <section className="min-h-screen bg-white px-8 mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-12 md:gap-0 overflow-hidden">
       {/* Decorative: top left math symbol */}
       <Image
-        src="/images/home_math.png"
+        src="/images/HomePage/HeroSection/home_math.png"
         alt="Math graphic"
         width={140}
         height={140}
-        className="absolute top-40 left-4 opacity-30 rotate-[15deg]"
+        className="absolute top-40 left-4"
         priority
       />
 
       {/* Main content (text block) */}
       <div className="relative z-10 flex flex-col justify-center items-center md:items-start text-center md:text-left space-y-6 md:ml-60">
+        <p className="font-[--font-poppins] text-lg text-black max-w-md">
+          THE PLATFORM
+        </p>
         <h1 className="font-[--font-nunito-sans] text-5xl font-semibold text-black leading-tight">
           Rethinking STEM<br />Education
         </h1>
@@ -49,11 +52,11 @@ export default function HeroHome() {
 
       {/* Decorative: red-tinted atom */}
       <Image
-        src="/images/home_atom.png"
+        src="/images/HomePage/HeroSection/home_atom.png"
         alt="Atom graphic"
         width={150}
         height={100}
-        className="absolute bottom-6 right-6"
+        className="absolute bottom-6 -right-7"
       />
     </section>
   );
