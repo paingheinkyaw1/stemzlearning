@@ -68,7 +68,7 @@ export default function ReviewSection() {
 
         {/* Card 3 (w:250 x h:329.154, p:10, radius:12, border:1, top:250, left:672.5) */}
         <div
-          className="absolute rounded-[12px] border border-gray-300 bg-white overflow-hidden shadow-[0_10px_28px_rgba(0,0,0,0.08)]"
+          className="absolute rounded-[12px] border bg-white overflow-hidden shadow-[0_10px_28px_rgba(0,0,0,0.08)]"
           style={{ width: 250, height: 329.154296875, top: 150, left: 672.5, padding: 10 }}
         >
           <div className="overflow-hidden rounded-[8px]">
@@ -118,7 +118,7 @@ export default function ReviewSection() {
 
         {/* Card 5 (w:276 x h:231, radius:12, border:1, top:438.29, left:58.5) */}
         <div
-          className="absolute rounded-[12px] border border-gray-300 bg-white shadow-[0_10px_28px_rgba(0,0,0,0.08)] overflow-hidden"
+          className="absolute rounded-[12px] border bg-white shadow-[0_10px_28px_rgba(0,0,0,0.08)] overflow-hidden"
           style={{ width: 276, height: 231, top: 350, left: 58.5 }}
         >
           <div className="p-5">
@@ -243,7 +243,7 @@ export default function ReviewSection() {
 
         {/* Card 9 (w:416 x h:210, pt:10 pr:24 pb:10 pl:24, radius:12, border:1, top:697.44, left:964.71) */}
         <div
-          className="absolute rounded-[12px] border border-gray-200 bg-gray-50 shadow-[0_10px_28px_rgba(0,0,0,0.08)] overflow-hidden"
+          className="absolute rounded-[12px] border bg-gray-50 shadow-[0_10px_28px_rgba(0,0,0,0.08)] overflow-hidden"
           style={{ width: 416, height: 210, top: 590, left: 964.71, paddingTop: 10, paddingRight: 24, paddingBottom: 10, paddingLeft: 24 }}
         >
           <div className="grid grid-cols-5 h-full">
