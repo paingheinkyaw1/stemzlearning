@@ -34,7 +34,7 @@ export default function OriginStory() {
         </div>
 
         <div className="relative mt-20 -mx-16">
-          {/* BIG logos that overlap the table top */}
+          {/* logos that overlap the table top */}
           <Image
             src="/images/AboutPage/originimage1.png"
             alt="Left large icon"
