@@ -6,9 +6,7 @@ import React from 'react';
 export default function OriginStory() {
   return (
     <section className="w-full">
-      {/* Outer frame: remove bottom padding, clip to rounded border */}
       <div className="max-w-[1074px] mx-auto rounded-[12px] border border-black/10 pt-9 px-16 pb-0 bg-white overflow-hidden">
-        {/* Header area gets the spacing that used to be on the frame bottom */}
         <div className="pb-9">
           {/* Title */}
           <div className="flex justify-center">
@@ -35,8 +33,6 @@ export default function OriginStory() {
           </div>
         </div>
 
-        {/* ===== TABLE AREA ===== */}
-        {/* -mx-16 cancels frame padding so row colors touch the border */}
         <div className="relative mt-20 -mx-16">
           {/* BIG logos that overlap the table top */}
           <Image
@@ -109,7 +105,7 @@ export default function OriginStory() {
             </div>
           </div>
 
-          {/* Row 4 — rounded bottoms to match frame & fill color to the very end */}
+          {/* Row 4 */}
           <div className="relative grid grid-cols-2">
             <div className="bg-[#FFF9F9] rounded-bl-[12px] flex items-center justify-center py-7">
               <p className="text-zinc-800 text-[15px] md:text-[16px] text-center">
@@ -127,7 +123,6 @@ export default function OriginStory() {
             </div>
           </div>
         </div>
-        {/* ===== END TABLE AREA ===== */}
       </div>
     </section>
   );
