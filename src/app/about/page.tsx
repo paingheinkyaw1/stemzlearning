@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import Navbar from '@/components/HomePage/Navbar';
 import HomeFooter from '@/components/HomePage/HomeFooter';
+import OriginStory from '@/components/AboutPage/OriginStory';
 
 export default function AboutPage() {
   return (
@@ -51,6 +52,8 @@ export default function AboutPage() {
           </div>
         </section>
       </main>
+
+      <OriginStory />
 
       {/* Footer */}
       <HomeFooter />
