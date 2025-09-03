@@ -17,7 +17,7 @@ export default function OriginStory() {
 
           {/* Paragraph */}
           <div className="mt-5 flex justify-center">
-            <p className="text-center text-[15px] md:text-[16px] leading-relaxed text-zinc-700 w-[946px] max-w-full">
+            <p className="text-center text-[15px] md:text-[16px] leading-relaxed w-[946px] max-w-full">
               During the COVID-19 pandemic, we saw a gap in accessible, engaging education for kids.
               Many lacked structured, enjoyable learning opportunities that didn’t feel like extra
               stress. That’s why we created STEMz Learning, a platform built on nontraditional,
@@ -53,12 +53,12 @@ export default function OriginStory() {
           {/* Row 1 */}
           <div className="relative grid grid-cols-2">
             <div className="bg-[#FFF9F9] border-b border-zinc-300/60 flex items-center justify-center py-7">
-              <p className="text-zinc-800 text-[15px] md:text-[16px] text-center">
+              <p className="text-[15px] md:text-[16px] text-center">
                 Limited engaging opportunities
               </p>
             </div>
             <div className="bg-[#EDF3EA] border-b border-l border-zinc-300/60 flex items-center justify-center py-7">
-              <p className="text-zinc-800 text-[15px] md:text-[16px] text-center">
+              <p className="text-[15px] md:text-[16px] text-center">
                 Non-traditional, experiment-driven courses
               </p>
             </div>
