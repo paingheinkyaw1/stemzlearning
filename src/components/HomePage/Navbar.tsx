@@ -13,7 +13,7 @@ export default function Navbar() {
         <div className="flex items-center">
           <Link href="/">
             <Image
-              src="/images/navbar_logo.png"
+              src="/images/HomePage/navbar_logo.png"
               alt="STEMzLearning Logo"
               width={300}
               height={100}
