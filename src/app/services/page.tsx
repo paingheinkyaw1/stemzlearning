@@ -6,7 +6,8 @@ import HomeFooter from '@/components/HomePage/HomeFooter';
 import Image from 'next/image';
 import HolisticServices from '@/components/ServicesPage/HolisticServices';
 import StudentServices from '@/components/ServicesPage/StudentServices';
-
+import TeacherServices from '@/components/ServicesPage/TeacherServices';
+import Upcoming from '@/components/ServicesPage/Upcoming';
 
 export default function ServicesPage() {
   return (
@@ -118,6 +119,8 @@ export default function ServicesPage() {
           />
 
       <StudentServices />
+      <TeacherServices />
+      <Upcoming />
       <HomeFooter />
     </div>
   );
