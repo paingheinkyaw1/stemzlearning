@@ -41,8 +41,10 @@ export default function Navbar() {
               Services <ChevronDown size={16} strokeWidth={2} />
               </Link>
             </li>
-            <li className="cursor-pointer hover:text-green-700 flex items-center gap-1">
+            <li>
+              <Link href="/media" className="cursor-pointer hover:text-green-700 flex items-center gap-1">
               Media <ChevronDown size={16} strokeWidth={2} />
+              </Link>
             </li>
           </ul>
 
