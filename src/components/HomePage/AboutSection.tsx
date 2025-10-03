@@ -15,14 +15,14 @@ export default function AboutSection() {
       {/* Top content */}
       <div className="w-[1074px] mx-auto md:px-10 flex flex-col lg:flex-row items-center gap-12">
         <div className="w-full">
-          <p className="font-[--font-poppins] text-black mb-6">
+          <p className="font-[var(--font-poppins)] text-black mb-6">
             We are passionate educators and technologists united to transform STEM education by making it more accessible to elementary students. Through interactive lessons, powerful analytics, and creative exploration, we offer free curriculum and online courses for both self-guided and parent-guided learners.
           </p>
         </div>
       </div>
 
       {/* Feature icons */}
-      <div className="w-[1074px] mx-auto px-4 md:px-10 font-[--font-poppins] mt-3 grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="w-[1074px] mx-auto px-4 md:px-10 font-[var(--font-poppins)] mt-3 grid grid-cols-1 md:grid-cols-4 gap-8">
         
         {/* 1. Students Engage */}
         <div>

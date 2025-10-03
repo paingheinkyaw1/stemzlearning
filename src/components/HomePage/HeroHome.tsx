@@ -18,18 +18,18 @@ export default function HeroHome() {
 
       {/* Main content (text block) */}
       <div className="relative z-10 flex flex-col justify-center items-center md:items-start text-center md:text-left space-y-6 md:ml-60">
-        <p className="font-[--font-poppins] text-lg text-black max-w-md">
+        <p className="font-[var(--font-poppins)] text-lg text-black max-w-md">
           THE PLATFORM
         </p>
         <h1 className="font-[--font-nunito-sans] text-5xl font-semibold text-black leading-tight">
           Rethinking STEM<br />Education
         </h1>
-        <p className="font-[--font-poppins] text-lg text-black max-w-md">
+        <p className="font-[var(--font-poppins)] text-lg text-black max-w-md">
           Transforming how STEM subjects are taught with interactive lessons and powerful analytics.
         </p>
         <button
           style={{ backgroundColor: '#F5BA00' }}
-          className="font-[--font-poppins] text-white px-6 py-3 font-semibold rounded-md shadow hover:brightness-90 transition"
+          className="font-[var(--font-poppins)] text-white px-6 py-3 font-semibold rounded-md shadow hover:brightness-90 transition"
         >
           Join our waitlist
         </button>

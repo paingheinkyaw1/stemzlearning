@@ -56,7 +56,7 @@ export default function MissionSection() {
         <h3 className="font-[--font-nunito-sans] font-bold text-3xl md:text-4xl text-green-800 mb-8">
           Our Mission
         </h3>
-        <p className="font-[--font-poppins] text-black">
+        <p className="font-[var(--font-poppins)] text-black">
           STEMz Learning strives to provide elementary school students with curriculum centered around experiments and hands-on learning.
           Our main goal is to introduce complex topics in palatable, engaging ways that inspire kids to learn more.
         </p>

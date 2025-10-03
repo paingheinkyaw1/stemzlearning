@@ -25,7 +25,7 @@ export default function Navbar() {
 
         {/* Right section: nav links + button */}
         <div className="flex items-center gap-10">
-          <ul className="font-[--font-poppins] hidden md:flex gap-13 text-gray-800 font-normal">
+          <ul className="font-[var(--font-poppins)] hidden md:flex gap-13 text-gray-800 font-normal">
             <li>
               <Link href="/" className="hover:text-green-700">
                 Home
@@ -50,7 +50,7 @@ export default function Navbar() {
 
           <button
             style={{ backgroundColor: '#357717' }}
-            className="font-[--font-poppins] hidden md:flex items-center gap-2 text-white px-5 py-2 rounded-md shadow hover:brightness-110 transition font-normal"
+            className="font-[var(--font-poppins)] hidden md:flex items-center gap-2 text-white px-5 py-2 rounded-md shadow hover:brightness-110 transition font-normal"
           >
             <UserCircle size={18} /> Dashboard
           </button>

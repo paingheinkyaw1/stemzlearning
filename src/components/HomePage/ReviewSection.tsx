@@ -6,7 +6,7 @@ import React from 'react';
 export default function ReviewSection() {
   return (
     <section className="bg-white py-20 px-4 text-black">
-      <div className="relative mx-auto font-[--font-poppins]" style={{ width: 1381, height: 940 }}>
+      <div className="relative mx-auto font-[var(--font-poppins)]" style={{ width: 1381, height: 940 }}>
         {/* Heading */}
         <div className=" w-[1074px] mx-auto">
           <h2 className="text-green-800 text-[24px] font-bold">Don’t Take Our word for it</h2>
