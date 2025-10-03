@@ -5,17 +5,17 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useState } from 'react';
 
 const images = [
-  '/images/missionpic1.png',
-  '/images/missionpic2.png',
-  '/images/missionpic3.png',
-  '/images/missionpic4.png',
-  '/images/missionpic5.png',
-  '/images/missionpic6.png',
-  '/images/missionpic7.png',
-  '/images/missionpic8.png',
-  '/images/missionpic9.png',
-  '/images/missionpic10.png',
-  '/images/missionpic11.png',
+  '/images/HomePage/MissionSection/missionpic1.png',
+  '/images/HomePage/MissionSection/missionpic2.png',
+  '/images/HomePage/MissionSection/missionpic3.png',
+  '/images/HomePage/MissionSection/missionpic4.png',
+  '/images/HomePage/MissionSection/missionpic5.png',
+  '/images/HomePage/MissionSection/missionpic6.png',
+  '/images/HomePage/MissionSection/missionpic7.png',
+  '/images/HomePage/MissionSection/missionpic8.png',
+  '/images/HomePage/MissionSection/missionpic9.png',
+  '/images/HomePage/MissionSection/missionpic10.png',
+  '/images/HomePage/MissionSection/missionpic11.png',
 ];
 
 export default function MissionSection() {

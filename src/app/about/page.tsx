@@ -46,7 +46,7 @@ export default function AboutPage() {
               STEM education.
             </h2>
 
-            <p className="mt-4 md:mt-5 leading-relaxed md:text-[17px]">
+            <p className="mt-4 md:mt-5 leading-relaxed md:text-[17px] text-black">
               At STEMZ Learning, we go beyond traditional STEM instruction by integrating
               creativity, critical thinking, and real-world application into every lesson.
               Our holistic approach nurtures the whole student—empowering them not just to

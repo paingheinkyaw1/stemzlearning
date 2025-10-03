@@ -96,7 +96,7 @@ export default function ServicesPage() {
                   </button>
 
                   <button
-                    className="w-[212px] h-[54px] rounded-[12px] border-2 border-[#357717] bg-white/75 backdrop-blur-sm shadow-[0_4px_4px_rgba(0,0,0,0.15)] px-6 py-[10px]"
+                    className="w-[212px] h-[54px] rounded-[12px] border-2 border-[#357717] bg-white/75 backdrop-blur-sm shadow-[0_4px_4px_rgba(0,0,0,0.15)] px-6 py-[10px] text-black"
                     type="button"
                   >
                     Request Sample

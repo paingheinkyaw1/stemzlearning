@@ -7,7 +7,7 @@ import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 export default function HomeFooter() {
   return (
-    <footer className="w-full pt-20">
+    <footer className="w-full pt-20 bg-white">
       {/* Top banner on WHITE background */}
       <div className="w-full bg-white">
         <Image

@@ -21,7 +21,7 @@ export default function JoinTeam() {
             <h3 className="text-3xl md:text-[40px] font-semibold text-[#4E4E4E]">
               Join Our Team
             </h3>
-            <p className="text-[16px] leading-relaxed">
+            <p className="text-[16px] leading-relaxed text-black">
               We’re always looking for passionate individuals to be part of our mission.
               If you’re excited about making a meaningful impact through education, we’d
               love to have you on board. Let’s shape the future of learning, together.
