@@ -11,8 +11,8 @@ export default function OnlinePresence() {
         'Students Engage in Interactive lessons spark curiosity and hands-on learning',
       img: '/images/MediaPage/podcast.png',
       actions: [
-        { label: 'Youtube', href: '#', icon: '/icons/youtube.png' },
-        { label: 'Spotify', href: '#', icon: '/icons/spotify.png' },
+        { label: 'Youtube', href: '#', icon: '/Icons/youtube.png' },
+        { label: 'Spotify', href: '#', icon: '/Icons/spotify.png' },
       ],
       offsetX: 10,   // px: +right / -left
       offsetY: -20,  // px: +down  / -up
