@@ -166,7 +166,7 @@ export default function LoginPage() {
                   Login
                 </button>
 
-                {/* Divider (optional) */}
+                {/* Divider */}
                 <hr className="w-[434.544921875px] border-t border-black/10 my-3" />
 
                 {/* Google button */}
