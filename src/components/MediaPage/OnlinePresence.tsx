@@ -22,7 +22,7 @@ export default function OnlinePresence() {
       body:
         'Students Engage in Interactive lessons spark curiosity and hands-on learning',
       img: '/images/MediaPage/substack.png',
-      actions: [{ label: 'Substack', href: '#', icon: '/icons/substack.png' }],
+      actions: [{ label: 'Substack', href: '#', icon: '/Icons/substack.png' }],
       offsetX: 10,
       offsetY: -20,
     },
